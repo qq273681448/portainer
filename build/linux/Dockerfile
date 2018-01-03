@@ -1,8 +1,6 @@
 FROM portainer/base
 
-MKDIR dist
-
-COPY dist /
+COPY /dist /
 
 VOLUME /data
 
