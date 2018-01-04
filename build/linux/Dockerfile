@@ -3,7 +3,7 @@ FROM portainer/base
 
 
 VOLUME /data
-
+COPY dist /
 WORKDIR /
 
 EXPOSE 9000
